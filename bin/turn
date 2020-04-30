@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require_relative '../lib/turn.rb'
-
+def turn
 board = []
 ii=0
 while(ii<9)
@@ -22,5 +22,5 @@ else
   move_index  = move_played.to_i
   make(board, move_index)
 end
-
+end
 
