@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require_relative '../lib/turn.rb'
-def turn
+def turn()
 board = []
 ii=0
 while(ii<9)
