@@ -27,3 +27,20 @@ end
 def move(board,move_index, move="X")
   board[move_index] == move
 end
+def turn(board=[" ",])
+board = []
+
+
+puts "Please enter 1-9:"
+
+move=gets.chomp
+
+move_index=input_to_index(move)
+if (valid_move?(board, move_index)
+  move(board, move_index)
+  
+else
+  puts "FAILURE Please enter 1-9:"
+  turn()
+end
+end
