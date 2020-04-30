@@ -37,6 +37,7 @@ move=gets.chomp
 move_index=input_to_index(move)
 if (valid_move?(board, move_index))
   move(board, move_index)
+  display_board(board)
   
 else
   puts "FAILURE Please enter 1-9:"
