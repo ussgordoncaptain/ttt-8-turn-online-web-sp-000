@@ -35,7 +35,7 @@ puts "Please enter 1-9:"
 move=gets.chomp
 
 move_index=input_to_index(move)
-if (valid_move?(board, move_index)
+if (valid_move?(board, move_index))
   move(board, move_index)
   
 else
