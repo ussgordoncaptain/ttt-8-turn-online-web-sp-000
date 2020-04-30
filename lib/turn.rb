@@ -27,7 +27,7 @@ end
 def move(board,move_index, move="X")
   board[move_index] == move
 end
-def turn(board=[" ",])
+def turn(board=[" "," "," "," "," "," "," "," "," "])
 board = []
 
 
