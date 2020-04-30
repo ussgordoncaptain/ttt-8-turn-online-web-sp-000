@@ -24,6 +24,6 @@ def input_to_index(input)
   index = input_as_num-1
   return index
 end
-def make_move(board,move_index, move="X")
+def move(board,move_index, move="X")
   board[move_index] == move
 end
