@@ -25,7 +25,7 @@ def input_to_index(input)
   return index
 end
 def move(board,move_index, move="X")
-  board[move_index] == move
+  board[move_index] = move
 end
 def turn(board=[" "," "," "," "," "," "," "," "," "])
 
